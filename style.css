@@ -43,4 +43,12 @@ main {
     .projects {
         grid-template-columns: 1fr;
     }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+    }
 }
