@@ -39,16 +39,23 @@ main {
     color: #0066cc;
 }
 
-@media (max-width: 700px) {
-    .projects {
-        grid-template-columns: 1fr;
-    }
-
-    .profile {
+ .profile {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 25px;
+        gap: 15px;
 
+    }
+
+    .profile img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+@media (max-width: 700px) {
+    .projects {
+        grid-template-columns: 1fr;
     }
 }
